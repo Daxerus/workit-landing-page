@@ -1,0 +1,142 @@
+body {    
+    margin: 0;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 2494px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {    
+    background-image: url(assets/images/exports/Rectangle.svg);
+    background-size:cover;
+    width: 100vw;
+    height: 730px;
+    display: flex;
+    flex-direction: column;    
+    margin-bottom: 255px;
+}
+
+#test {
+    display: flex;
+}
+    
+#upperLogo { 
+    flex-shrink: 0;
+    margin-top: 53px;
+    margin-left: 165px;
+    margin-right: 873.89px;
+}
+
+button{
+    padding: 0;
+    background-color: unset;
+    border: unset;
+}
+
+.secondaryButton {    
+    color: var(--white, #FFF);
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:  177.778%;
+    letter-spacing: -0.18px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #44FFA1;
+    text-underline-offset: 10px;
+}
+
+.primaryButton {
+    background-color: #44FFA1;
+    color: #24053E;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.heading {
+    align-self: center;
+    width: 635px;
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 90px;
+}
+.headingL {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Fraunces;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+#headingDeco {
+    display: inline-block;
+    position: relative;    
+}
+
+#headingDeco::after {
+    content:"";
+    height: 3px;
+    width: 92.5%;
+    position: absolute;
+    background-color: #44FFA1;
+    left: 8px;
+    bottom: -3px;
+    align-self: center;
+}
+
+#headerBreak {
+    display: inline-block;
+}
+
+#upperApply {
+    margin-top: 57px;
+}
+
+#learnMore {
+    align-self: center;
+    padding-top: 13px;
+    padding-right: 31.5px;
+    padding-bottom: 16px;
+    padding-left: 32.5px;
+    margin-bottom: 50px;
+}
+
+#leftShape {
+    position: absolute;
+    top: 116.12px;
+    left: -139px;
+}
+
+#centerShape {
+    position: absolute;
+    top: 2010px;
+    left: 982.01px;
+}
+
+#rightShape {
+    position: absolute;
+    top: 314.07px;
+    left: 1315.4px;
+}
+
+#phone {
+    width: 767px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+
+
+

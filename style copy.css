@@ -1,0 +1,78 @@
+body {    
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 2494px;
+}
+
+.header {
+    background-image: url(assets/images/exports/Rectangle.svg);
+    background-size:contain;
+    height: 730px;
+
+}    
+
+.secondaryButton {
+    background-color: unset;
+    border:  unset;
+    color: var(--white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #44FFA1;
+}
+
+#upperApply {
+    margin-left: 1135px;
+    padding: 0;
+}
+
+.heading {
+    width: 635px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.headingL {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Fraunces';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+}
+
+#upperLogo {
+    width: 98px;
+    height: auto;
+    margin-top: 57px;
+    margin-left: 165px;
+}
+
+
+
+#leftShape {
+    position: absolute;
+    width: 270.29px;
+    height: 215.1px;
+    margin-right: 1238.63px;
+    margin-top: 116.12px;
+}
+
+#phone {
+    width: 715px;
+    height: 427px;
+    flex-shrink: 0;
+    display: block;
+}
